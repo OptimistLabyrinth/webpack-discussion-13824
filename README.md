@@ -186,7 +186,7 @@ open your web browser and type on the address bar: http://127.0.0.1:3080/
 $ code .
 ```
 
-##  'webpack.config.js' from project root
+##  'webpack.prod.js' from project root
 
 <br />
 
