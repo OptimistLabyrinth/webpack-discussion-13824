@@ -1,0 +1,13 @@
+@font-face {
+  font-family: "OlympusMount";
+  src: url("./olympus_mount/Olympus\ Mount.ttf") format('ttf');
+}
+
+.module02_div_text {
+  font-family: 'OlympusMount';
+  color: orange;
+}
+
+.module02_margin {
+  margin: 1em;
+}

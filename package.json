@@ -1,0 +1,35 @@
+{
+  "name": "webpack-any",
+  "version": "1.0.0",
+  "description": "",
+  "private": "true",
+  "scripts": {
+    "start": "npm run build && webpack server --config webpack.prod.js",
+    "build": "webpack --config webpack.prod.js",
+    "clean": "rimraf ./prod/*",
+    "dev": "npm run devBuild && webpack server --config webpack.config.js",
+    "devBuild" : "webpack --config webpack.config.js",
+    "devClean": "rimraf ./dist/*"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "lodash": "^4.17.21"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.14.6",
+    "@babel/preset-env": "^7.14.7",
+    "babel-loader": "^8.2.2",
+    "css-loader": "^6.1.0",
+    "csv-loader": "^3.0.3",
+    "html-loader": "^2.1.2",
+    "html-webpack-plugin": "^5.3.2",
+    "rimraf": "^3.0.2",
+    "style-loader": "^3.1.0",
+    "webpack": "^5.45.1",
+    "webpack-cli": "^4.7.2",
+    "webpack-dev-server": "^3.11.2",
+    "webpack-manifest-plugin": "^3.1.1"
+  }
+}

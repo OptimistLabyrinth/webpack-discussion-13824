@@ -1,0 +1,26 @@
+@font-face {
+  font-family: "HappyDonut";
+  src: url("./happy_donuts/HAPPY\ DONUTS.otf") format("otf"), 
+    url("./happy_donuts/HAPPY\ DONUTS.ttf") format("ttf"),
+    url("./happy_donuts/HAPPY\ DONUTS.woff") format("woff"),
+    url("./happy_donuts/HAPPY\ DONUTS.woff2") format("woff2");
+}
+
+.hello {
+  color: green;
+  font-family: 'HappyDonut';
+  font-size: 2em;
+}
+
+.index_margin_top_bottom {
+  margin-top: 1em;
+  margin-bottom: 1em;
+}
+
+.button {
+  padding: 1em;
+}
+
+.data_el {
+  color: green;
+}
