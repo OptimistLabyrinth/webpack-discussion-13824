@@ -197,7 +197,7 @@ $ code .
 
 ## 1. 
  - output.filename = [name].bundle.js
- - publicPath = /dist/
+ - publicPath = /prod/
 
 ```json
 {
@@ -229,7 +229,7 @@ open your web browser and type on the address bar: http://127.0.0.1:3080/
 
 ## 2. 
  - output.filename = [name].[contenthash].js
- - publicPath = (auto)
+ - publicPath = '/'
 
 ```json
 {
@@ -261,7 +261,7 @@ open your web browser and type on the address bar: http://127.0.0.1:3080/
 
 ## 3. 
  - output.filename = [name].[contenthash].js
- - publicPath = '/dist/'
+ - publicPath = '/prod/'
 
 ```json
 {
